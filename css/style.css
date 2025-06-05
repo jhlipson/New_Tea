@@ -1,0 +1,176 @@
+html {
+    background-color: black;
+    color: white;
+   
+}
+
+h1,
+h2,
+h4 {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+header {
+    position: fixed;
+    background-color: black;
+    top: 0px;
+   height: 69px;
+   width: 100%;
+   z-index: 100px;
+   border-bottom: 1px solid seashell;
+}
+.main {
+    padding-top: 69px;
+}
+header img {
+ float: left;
+ height: 50px;
+ width: auto;
+ margin-left: 10px;
+ margin-top: 10px;
+}
+
+.hyperlinks {
+ 
+ margin-left: 1000px;
+ text-align: right;
+ list-style: none;
+ font-family: Arial, Helvetica, sans-serif;
+ display: flex;
+ flex: wrap;
+ justify-content: center;
+}
+
+.hyperlinks li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+#our_mission {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+
+   
+}
+
+.mission-text {
+    display: inline-flex;
+    flex-flow: column wrap; /* h2 above h4 */
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 0;
+}
+
+#our_mission h2,
+#our_mission h4 {
+    margin: 0;
+    padding: 12px 0;
+    width: 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    z-index: 1;
+  
+}
+ #tea_of_the_month {
+    text-align: center;
+ }
+
+ #tea_photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: 0 auto; /* optional: center the container */
+}
+
+.tea-item {
+    text-align: center;
+    /* adds spacing around each item */
+}
+
+.tea-item img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+#Locations {
+ 
+    display: flex;                     
+    justify-content: center;          
+    align-items: center;              
+    gap: 20px;                         
+    background-image: url("../images/img-locations-background.jpg");
+    background-repeat: no-repeat;     /* Do not tile the image */
+    background-position: center;      /* Center it in the section */
+    /* background-size: cover; <-- REMOVED */
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+#Locations {
+    display: flex;                      /* Lay out ul blocks horizontally */
+    justify-content: center;           /* Center the group horizontally */
+    align-items: center;           /* Align top of ul blocks */
+    gap: 40px;                          /* 20px gap between each ul */
+    background-image: url("../images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;             /* Use natural size */
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#Locations ul {
+    display: flex;
+    flex-direction: column;            /* Stack li elements vertically */
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;                      /* reasonable width */
+    height: auto;                      /* or set min-height if needed */
+    box-sizing: border-box;
+    text-align: center;
+    margin: 15px;
+}
+
+#Locations h1 {
+    text-align: center;
+    padding-bottom: 20px;
+   
+}
+
+#Locations li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 15px 30px;
+    
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#copyright {
+    text-align: left;
+    margin: 20px;
+}
+
